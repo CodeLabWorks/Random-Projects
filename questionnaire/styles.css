@@ -1,125 +1,126 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    padding: 2em;
-    text-align: center;
-  }
-  
-  section.home, section.questionnaire {
-    max-width: 600px;
-    margin: auto;
-    padding: 1em;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background: #f9f9f9;
-  }
-  
-  section h2 {
-    margin-bottom: 20px;
-  }
-  
-  section i {
-    color: #555;
-    margin-bottom: 15px;
-  }
-  
-  form label {
-    display: block;
-    margin-top: 20px;
-  }
-  
-  form input, form select, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  form button {
-    margin-top: 20px;
-    padding: 10px 15px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  form button:hover {
-    background-color: #555;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  /* Popup Modal Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+section.home,
+section.questionnaire {
+  max-width: 600px;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+section i {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-top: 20px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Popup Modal Styles */
 .popup {
-    display: none; /* Hidden by default */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-  }
-  
-  .popup-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 80%;
-    max-width: 400px;
-  }
-  
-  .popup-close {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  .popup h2 {
-    margin: 0 0 10px;
-    color: #333;
-  }
-  
-  .popup p {
-    color: #555;
-  }
-  
-  
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup h2 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.popup p {
+  color: #555;
+}
