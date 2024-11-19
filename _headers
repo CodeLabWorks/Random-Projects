@@ -4,7 +4,6 @@
 ! Public-Key-Pins
 ! Access-Control-Allow-Origin
 ! Access-Control-Allow-Credentials
-Cache-Control: public, max-age=86400, must-revalidate
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 X-Content-Type-Options: nosniff
 Permissions-Policy: geolocation=(), camera=(), microphone=(), fullscreen=(), accelerometer=(), gyroscope=(), magnetometer=(), payment=(), usb=(), midi=(), clipboard-read=(), clipboard-write=()
