@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .project h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .project .button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .project .button:hover {
+    background: #0056b3;
+  }
+  
+  /* About and Contact Section */
+  .about {
+    padding: 2rem;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+  }
+  
